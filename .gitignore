@@ -5,3 +5,9 @@ dist/
 !.env.example
 .DS_Store
 Thumbs.db
+
+# Python backend
+backend/venv/
+__pycache__/
+*.pyc
+*.db
