@@ -1,13 +1,27 @@
+# Dependencies & Builds
 node_modules/
+**/node_modules/
 dist/
+**/dist/
+.vite/
+**/.vite/
+
+# Environment
 .env
 .env.*
 !.env.example
+
+# OS & Logs
 .DS_Store
 Thumbs.db
+*.log
 
 # Python backend
 backend/venv/
+**/venv/
 __pycache__/
+**/__pycache__/
 *.pyc
 *.db
+.pytest_cache/
+**/.pytest_cache/

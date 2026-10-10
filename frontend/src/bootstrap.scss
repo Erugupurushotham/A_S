@@ -1,0 +1,13 @@
+// Only the Bootstrap components the app uses — no reboot, no utilities, so nothing collides with Tailwind.
+@layer bootstrap {
+  @import "bootstrap/scss/functions";
+  @import "bootstrap/scss/variables";
+  @import "bootstrap/scss/variables-dark";
+  @import "bootstrap/scss/maps";
+  @import "bootstrap/scss/mixins";
+  @import "bootstrap/scss/root";
+  @import "bootstrap/scss/transitions";
+  @import "bootstrap/scss/close";
+  @import "bootstrap/scss/toasts";
+  @import "bootstrap/scss/modal";
+}
